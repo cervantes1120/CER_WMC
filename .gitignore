@@ -1,4 +1,10 @@
-node_modules/
-.env
+**/node_modules/
+**/.env
+**/.env.*
+!**/.env.example
 *.db
 *.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
